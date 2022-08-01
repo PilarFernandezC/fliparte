@@ -1,0 +1,68 @@
+$color1: #EA5A56; 
+$color2: #FDFFA4;
+$color3: #616161;
+$color4: #fff;
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: $color3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+p, label {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.cards-wrapper {
+	display: flex;
+}
+
+.card {
+	margin: 0 .5em;
+}
+
+.texto-justificado{
+text-align: justify;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: $color1;
+	border-color: $color1;
+	display: block;
+	&:hover {
+		color: #fff;
+    	background-color: darken($color1, 10%);
+    	border-color: darken($color1, 10%);
+	}
+	&:active:focus {
+		box-shadow: none;
+	}
+
+	&:focus {
+		color: #fff;
+    	background-color: $color1;
+    	border-color: $color1;
+    	box-shadow: none;
+	}
+}
+
+footer {
+	padding: 60px 0;
+}
+
+.bg-color4 {
+	background-color: $color4;
+}
+
+.select {
+	border-color: $color3;
+	color: $color3;
+}
+
+
+
